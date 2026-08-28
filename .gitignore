@@ -1,0 +1,12 @@
+# Local Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Downloaded model weights and Hugging Face cache
+models/**/*.safetensors
+models/**/.cache/
+
+# Generated quantized artifacts and experiment output
+gguf/
+results/
